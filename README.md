@@ -5,6 +5,7 @@ We have a local, shared server managed with [ServerPilot](https://serverpilot.io
 ## How to use
 
 To use this script, follow the steps:
+
 1. Download the ```update.php``` file and place it somewhere accessible from your browser.
 1. Change the paths to binaries and folders where marked.
 1. Add or remove commands as you like.
