@@ -19,6 +19,6 @@ This script is intended to send the information as it processes it, using the PH
 
 You need to enable the [exec](http://php.net/manual/en/function.exec.php) call for your webserver.
 
-This is only a script for development environment. Do not use it in production servers.
+This is a script only for development environments. Do not use it in production servers.
 
 If you have any correction, any suggestion… just let me know!
