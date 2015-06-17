@@ -13,8 +13,10 @@ To use this script, follow the steps:
 
 ## Notes
 
-Depending on your filesystem, you may need to change the permissions to files. I didn’t have any problems when working with ServerPilot, as the system username and the webserver username are the same. If you have some problems, try to set the permissions as indicated at the [Symfony2 installation guide](http://symfony.com/doc/current/book/installation.html#checking-symfony-application-configuration-and-setup).
+Depending on your filesystem, you may need to change the permissions to files. I didn’t have any problems when working with ServerPilot, as the system username and the webserver username are the same. If you have any problem, try to set the permissions as indicated at the [Symfony2 installation guide](http://symfony.com/doc/current/book/installation.html#checking-symfony-application-configuration-and-setup).
 
 The scripts is intended to send the information as it processes it, using the PHP functions [ob_flush](http://php.net/manual/en/function.ob-flush.php) and [flush](http://php.net/manual/en/function.flush.php). It may not work depending on your server configuration.
+
+You need to enable the [exec](http://php.net/manual/en/function.exec.php) call for your webserver.
 
 If you have any correction, any suggestion… just let me know!
